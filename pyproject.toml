@@ -1,0 +1,12 @@
+[project]
+name = "interview_platform"
+version = "0.1.1"
+description = "A backend for interview preparation platform"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]>=0.118.0",
+    "google-adk>=1.15.1",
+    "python-dotenv>=1.1.1",
+    "motor>=3.6.0",
+]
